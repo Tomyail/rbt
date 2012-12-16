@@ -1,0 +1,10 @@
+d:flash
+	d:WindowSWF
+	d:Test
+d:assert
+	d:Test
+	d:aa
+		d:aaa
+	d:bb
+d:jsfl
+f:mainifest.xml
