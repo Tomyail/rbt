@@ -7,4 +7,3 @@ d:jsfl
 	f:bootstrap.jsfl
 	f:main.jsfl
 f:mainfest.xml
-
