@@ -23,6 +23,7 @@ def readConfig()
 	current = 0
 	parent = 0
 	while (line = file.gets)
+		next if line.length == 0
 		current = getTabNum(line)
 		if(!hash[current])
 			hash[current] = [];
