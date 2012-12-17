@@ -1,0 +1,10 @@
+d:assert
+	d:source
+d:config
+d:flash
+	d:WindowSWF
+d:jsfl
+	f:bootstrap.jsfl
+	f:main.jsfl
+f:mainfest.xml
+
