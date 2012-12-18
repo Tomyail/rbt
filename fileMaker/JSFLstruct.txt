@@ -7,4 +7,4 @@ d:flash
 d:jsfl
 	f:bootstrap.jsfl
 	f:main.jsfl
-f:mainfest.xml
+f:mainifest.xml
