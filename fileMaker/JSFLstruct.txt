@@ -1,5 +1,6 @@
 d:assert
 	d:source
+		f:main.fla
 d:config
 d:flash
 	d:WindowSWF
