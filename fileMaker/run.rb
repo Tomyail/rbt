@@ -23,29 +23,17 @@ def readConfig()
 	current = 0
 	parent = 0
 	while (line = file.gets)
-		next if line.length == 0
 		current = getTabNum(line)
 		if(!hash[current])
 			hash[current] = [];
 		end
 		if(pre != current)
-			if(!paretntHash[current])
+			if(current - pre >0)
 				paretntHash[current] = hash[current-1].length-1
-			else
-				if(current - pre >0)
-					paretntHash[current]+=1
-				else
-					paretntHash[current]
-				end
-				
 			end
 			pre = current
 		end
-		#if(current == 0)
-		#	parent = 0
-		#else
-			parent = paretntHash[current]
-		#end
+		parent = paretntHash[current]
 		line = line.gsub(/\s+/, "")
 		#puts "#{current},#{line},#{paretntHash[current]}"
 		hash[current].push({"value"=>line,"parent"=>parent});
